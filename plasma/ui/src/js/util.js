@@ -1,5 +1,12 @@
 var config = require('./config.js');
 
+$.ajaxSetup({
+    beforeSend: function (xhr)
+    {
+       xhr.setRequestHeader('Authorization', 'Basic YWRtaW46YWRtaW4=');
+    }
+});
+
 exports.listMembers = function(jsonContent) {
   var returnMembers = [];
   var members = jsonContent['Members'];
