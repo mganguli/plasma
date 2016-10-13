@@ -24,7 +24,7 @@ LOG = logging.getLogger(__name__)
 class Handler(object):
     """Valence Node RPC handler.
 
-    These are the backend operations. They are executed by the backend ervice.
+    These are the backend operations. They are executed by the backend service.
     API calls via AMQP (within the ReST API) trigger the handlers to be called.
 
     """
