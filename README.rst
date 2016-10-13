@@ -76,7 +76,7 @@ A pecan based daemon to expose Valence REST APIs. The api service communicates t
 
 valence-controller
 --------------
-The controller implements all the handlers for Plasma-api. It reads requests from the AMQP queue, process it and send the reponse back to the caller.
+The controller implements all the handlers for Valence-api. It reads requests from the AMQP queue, process it and send the reponse back to the caller.
 
 valence-ui
 --------
