@@ -280,7 +280,7 @@ def systems_list(count=None, filters={}):
 
 
 def get_systembyid(systemid):
-    resp = send_request("System/" + systemid)
+    resp = send_request("Systems/" + systemid)
     return resp.json()
 
 
